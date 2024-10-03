@@ -1,0 +1,5 @@
+---- Notas ----
+
+---- Modulos instalados ----
+
+pip install moviepy

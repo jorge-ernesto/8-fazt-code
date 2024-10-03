@@ -1,0 +1,30 @@
+---- Notas ----
+
+---- Modulos instalados durante las pruebas ----
+
+pip uninstall opencv-python opencv-contrib-python
+pip uninstall tensorflow-gpu
+pip uninstall opencv-python-headless
+pip uninstall torch torchvision
+pip uninstall realesrgan
+pip uninstall opencv-python opencv-python-headless
+
+---- Modulos instalados ----
+
+pip install opencv-python opencv-contrib-python
+
+Prompt:
+Mejor calidad de imagen con Python de manera facil, script
+Debes usar ia para redimensionar la imagen de la mejor manera posible a una escala 2x o 4x como en la web https://www.iloveimg.com/es/ampliar-imagen
+He notado que la herramienta iloveimg, lo hace muy rapido, como puedo aumentar el tiempo de ejecucion del script
+
+Prompt:
+Que es FSRCNN, que otros modelos existen, incluye ESRGAN, dame un resumen en una tabla, ordena la tabla por velocidad y calidad
+| **Modelo**      | **Velocidad** | **Calidad**                 | **Uso**                                            |
+|-----------------|---------------|-----------------------------|----------------------------------------------------|
+| **FSRCNN**      | Muy rápido    | Calidad media               | Aplicaciones en tiempo real y baja latencia        |
+| **ESPCN**       | Muy rápido    | Calidad media               | Compromiso entre velocidad y calidad               |
+| **LapSRN**      | Moderado      | Alta calidad                | Eficiencia en memoria y escalabilidad              |
+| **ESRGAN**      | Lento         | Calidad extremadamente alta | Aplicaciones que requieren fidelidad visual máxima |
+| **EDSR**        | Lento         | Calidad muy alta            | Uso donde la fidelidad es crítica                  |
+| **SRGAN**       | Muy lento     | Calidad alta                | Generación de imágenes realistas                   |
